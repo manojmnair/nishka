@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gray-200 text-gray-900;
+}
+active {
+ @apply bg-blue-500;
+}
+.home {
+  height: 100vh;
+}
+
+.home .overlay {
+  height: 100vh;
+}
+
+.wrapper{
+  display:grid;
+  height:100vh;
+  place-items:center
+}
+
+.nav .ul .li ._current{
+background-color:bg-red
+}
+header.scrolled {
+    @apply shadow-2xl;
+    border-bottom: 0px;
+}
